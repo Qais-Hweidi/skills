@@ -2,18 +2,19 @@
 
 Portable personal skills following the [Agent Skills specification](https://agentskills.io/specification).
 
-## Sync locally
+## Install
 
-Requires GitHub CLI 2.90.0 or newer:
+Requires GitHub CLI 2.90.0 or newer. Choose the agent you use:
 
 ```sh
-./sync
+gh skill install Qais-Hweidi/skills research --agent codex --scope user
+gh skill install Qais-Hweidi/skills research --agent claude-code --scope user
 ```
 
-The default targets are Claude Code and Codex. Override them when needed:
+Update installed skills after new versions are pushed:
 
 ```sh
-SKILLS_AGENTS="claude-code codex cursor gemini-cli" ./sync
+gh skill update research
 ```
 
 Validate every skill without publishing:
