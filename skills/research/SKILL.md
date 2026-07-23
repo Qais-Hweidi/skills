@@ -1,6 +1,7 @@
 ---
 name: research
 description: Conduct evidence-based software-engineering research. Use when asked to research, investigate, compare, evaluate, recommend, or verify technologies, libraries, APIs, architecture, security, compatibility, or engineering practices.
+disable-model-invocation: true
 ---
 
 # Research
