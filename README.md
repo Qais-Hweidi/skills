@@ -4,17 +4,16 @@ Portable personal skills following the [Agent Skills specification](https://agen
 
 ## Install
 
-Requires GitHub CLI 2.90.0 or newer. Choose the agent you use:
+Requires GitHub CLI 2.90.0 or newer. Install every skill, then choose the target agent(s) and scope when prompted:
 
 ```sh
-gh skill install Qais-Hweidi/skills research --agent codex --scope user
-gh skill install Qais-Hweidi/skills research --agent claude-code --scope user
+gh skill install Qais-Hweidi/skills --all
 ```
 
-Update installed skills after new versions are pushed:
+Update every installed skill after new versions are pushed:
 
 ```sh
-gh skill update research
+gh skill update --all
 ```
 
 Validate every skill without publishing:

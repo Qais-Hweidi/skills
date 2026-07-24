@@ -1,0 +1,7 @@
+interface:
+  display_name: "Handoff"
+  short_description: "Create compact, copy-ready agent handoffs"
+  default_prompt: "Use $handoff to create a compact, copy-ready handoff for another agent."
+
+policy:
+  allow_implicit_invocation: false
