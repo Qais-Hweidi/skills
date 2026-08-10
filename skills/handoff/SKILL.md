@@ -1,6 +1,6 @@
 ---
 name: handoff
-description: Create a compact, copy-ready context handoff for another AI agent to continue the current task without re-discovery.
+description: Compact, copy-ready context handoff for another agent.
 disable-model-invocation: true
 ---
 

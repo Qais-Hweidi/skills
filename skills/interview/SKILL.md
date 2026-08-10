@@ -1,6 +1,6 @@
 ---
 name: interview
-description: Interview the user to pin down a request before acting. Use when a task is vague, underspecified, or open to multiple interpretations, and assumptions would be costly.
+description: Ask clarifying questions instead of assuming.
 disable-model-invocation: true
 ---
 
