@@ -1,0 +1,7 @@
+interface:
+  display_name: "Explain"
+  short_description: "Teach a concept through a throwaway interactive visual page"
+  default_prompt: "Use $explain to teach me this concept with a throwaway interactive visual page."
+
+policy:
+  allow_implicit_invocation: false
