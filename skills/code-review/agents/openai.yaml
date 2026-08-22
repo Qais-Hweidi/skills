@@ -1,0 +1,7 @@
+interface:
+  display_name: "Code Review"
+  short_description: "Review the change against the spec, fix what's wrong, verify"
+  default_prompt: "Use $code-review to check this change against what was asked, fix what's wrong, and verify it."
+
+policy:
+  allow_implicit_invocation: false
