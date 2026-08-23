@@ -1,6 +1,6 @@
 interface:
   display_name: "Code Review"
-  short_description: "Review the change against the spec, fix what's wrong, verify"
+  short_description: "Review changes against intent, fix real problems, and verify"
   default_prompt: "Use $code-review to check this change against what was asked, fix what's wrong, and verify it."
 
 policy:
