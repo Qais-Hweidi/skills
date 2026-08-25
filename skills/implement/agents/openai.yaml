@@ -1,0 +1,7 @@
+interface:
+  display_name: "Implement"
+  short_description: "Implement requested code changes from start to finish"
+  default_prompt: "Use $implement to implement this requested code change from start to finish."
+
+policy:
+  allow_implicit_invocation: false
