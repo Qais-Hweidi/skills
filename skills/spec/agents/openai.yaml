@@ -1,0 +1,7 @@
+interface:
+  display_name: "Spec"
+  short_description: "Define simple, implementation-ready specifications"
+  default_prompt: "Use $spec to define an implementation-ready specification for this change."
+
+policy:
+  allow_implicit_invocation: false
