@@ -40,14 +40,6 @@ Check which skills the repository provides and which are already installed for t
 After I choose, install or update only those skills at user scope. Do not overwrite skills from another source or discard local modifications without asking. Verify the result and report what changed.
 ```
 
-## Use
-
-Invoke a skill explicitly by name, for example:
-
-```text
-Use $spec to define this feature before implementation.
-```
-
 ## Update
 
 Update installed skills to their latest versions:
